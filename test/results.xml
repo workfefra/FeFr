@@ -1,2 +1,0 @@
-mkdir -p test
-echo '<?xml version="1.0"?>' > test/results.xml
