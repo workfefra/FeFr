@@ -1,7 +1,7 @@
 `default_nettype none
 `timescale 1ns / 1ps
 
-module test_tt_um_endecoder_workfefra;
+module tb;
   initial begin
     $display("Dummy test running OK");
     #10 $finish;
