@@ -1,6 +1,6 @@
 `default_nettype none
 
-module tt_um_endecoder_workfefra (
+module EnDecoder (
     input  wire        clk_i,
     input  wire        rst_i,
     input  wire [3:0]  code_i,
