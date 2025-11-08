@@ -40,7 +40,7 @@ module tt_um_endecoder_workfefra (
     // ============================================================
     // Instantiate your core
     // ============================================================
-    endecoder_core u_core (
+    EnDecoder (
         .clk_i   (clk_i),
         .rst_i   (rst_i),
         .code_i  (code_i),
@@ -54,3 +54,4 @@ module tt_um_endecoder_workfefra (
 endmodule
 
 `default_nettype wire
+
